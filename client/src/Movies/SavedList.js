@@ -14,3 +14,22 @@ const SavedList = props => (
 );
 
 export default SavedList;
+
+let n = 10;
+
+function likes(names) {
+  // TODO
+  let text = "like this"
+  if(names.length === 0){
+     return "no one likes this";
+  }
+  else if(names.length === 1){
+    return names[0] + " likes this";
+  }
+  else{
+    names.foreach((element, index) => {
+      
+    });
+    return text;
+  }
+}
